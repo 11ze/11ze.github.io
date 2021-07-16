@@ -1,0 +1,15 @@
+{
+  "name": "ze-blog",
+  "version": "1.0.0",
+  "description": "11ze's Blog",
+  "main": "index.js",
+  "author": "11ze <wangzecn@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.22"
+  }
+}
