@@ -5,5 +5,21 @@ module.exports = {
 
   themeConfig: {
     author: "11ze <wangzecn@qq.com>",
+    navbar: [
+      { text: "首页", link: "/" },
+      { text: "关于", link: "about" }
+    ],
+    sidebar: "auto",
+    lastUpdatedText: "上次编辑于",
+    contributors: false
   },
+
+  plugins: [
+    [
+      "@vuepress/plugin-google-analytics",
+      {
+        id: "G-SZZLS6FREP"
+      }
+    ]
+  ]
 };

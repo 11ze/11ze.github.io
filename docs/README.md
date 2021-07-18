@@ -1,6 +1,7 @@
 ---
-title: Hello
-description: Hello VuePress
+sidebar: false
 ---
 
-# Hello VuePress
+# Hello
+
+网站建设中
